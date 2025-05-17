@@ -1,2 +1,3 @@
-# interview_prep
-Interview prep
+# Interview Prep
+
+Repo for interview prep, learning things, etc.
