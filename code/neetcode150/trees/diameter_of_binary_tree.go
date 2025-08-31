@@ -1,11 +1,5 @@
 package trees
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
 /*
 Given the root of a binary tree, return the length of the diameter of the tree.
 
