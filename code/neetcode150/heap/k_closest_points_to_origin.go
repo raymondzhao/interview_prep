@@ -44,7 +44,7 @@ func kClosest(points [][]int, k int) [][]int {
 	for _, v := range points {
 		dist := v[0]*v[0] + v[1]*v[1]
 		heap.Push(h, Point{v[0], v[1], dist})
-		// pop bc we only care about top k values
+		// pop bc we only care about smallest dist values so remove higher dist
 		if h.Len() > k {
 			heap.Pop(h)
 		}
