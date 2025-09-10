@@ -60,6 +60,7 @@ func diameterOfBinaryTreeIterative(root *TreeNode) int {
 		curr := stack[len(stack)-1]
 		if curr == nil {
 			stack = stack[:len(stack)-1] // pop value if nothing is there
+			continue                     // skip visited check
 		}
 
 		if visited[curr] {
